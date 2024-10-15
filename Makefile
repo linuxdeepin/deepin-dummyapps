@@ -7,7 +7,7 @@ all: build
 build: generate_mo
 
 install:
-	install -Dm 644 ./assets/dummyapp-wpsoffice/wps-office.svg ${DESTDIR}/usr/share/icons/hicolor/scalable/apps/wps-office.svg
+	install -Dm 644 ./assets/dummyapp-wpsoffice.svg ${DESTDIR}/usr/share/icons/hicolor/scalable/apps/dummyapp-wpsoffice.svg
 
 	install -Dm 644 ./misc/dummyapp-wpsoffice.desktop ${DESTDIR}/usr/share/applications/dummyapp-wpsoffice.desktop
 	install -Dm 644 ./misc/dummyapp-wpsoffice.metainfo.xml ${DESTDIR}/usr/share/metainfo/dummyapp-wpsoffice.metainfo.xml
