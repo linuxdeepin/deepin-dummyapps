@@ -3,7 +3,7 @@ Section: editors
 Priority: optional
 Maintainer: Wu Haotian <wuhaotian@uniontech.com>
 Standards-Version: 4.6.0.1
-Build-Depends: debhelper-compat (= 12), gettext, gettext-base, make
+Build-Depends: debhelper-compat (= 12), gettext, gettext-base
 
 Package: dummyapp-wpsoffice
 Provides: cn.wps.wps-office
