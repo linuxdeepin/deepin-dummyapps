@@ -17,7 +17,6 @@ install:
 
 clean:
 	rm -f i18n/**/*.mo
-	rm -f i18n/*.pot
 
 # For translation
 # --no-translator stops msginit from asking for an email address
