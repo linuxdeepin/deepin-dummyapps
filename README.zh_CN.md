@@ -7,7 +7,7 @@
 
 ## 构建
 
-本仓库的唯一作用是构建 deb 包，所以请确保安装了 Debian 的打包设施程序。需安装 `gettext` 和 `gettext-base` 。ttext` and `gettext-base` are required.
+本仓库的唯一作用是构建 deb 包，所以请确保安装了 Debian 的打包设施程序。需安装 `gettext` 和 `gettext-base` 。
 
 ```sh
 debuild
