@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component type="desktop-application">
+  <id>com.deepin.dummyapps.wpsoffice</id>
+  <launchable type="desktop-id">dummyapp-wpsoffice.desktop</launchable>
+  <metadata_license>GPL-3+</metadata_license>
+  <!-- <project_license>GPL-3.0+</project_license> -->
+  <content_rating type="oars-1.0"/>
+  <categories>
+    <category>Office</category>
+    <category>WordProcessor</category>
+    <category>Presentation</category>
+    <category>Spreadsheet</category>
+    <category>Qt</category>
+  </categories>
+  <custom>
+    <value key="DDE::is_dummy_package">true</value>
+  </custom>
+  <name>WPS Office</name>
+  <summary>WPS Office suite</summary>
+  <summary xml:lang="zh-CN">WPS Office 办公套件</summary>
+  <!-- <icon type="stock">systemsettings</icon> -->
+  <description>
+    <p>Use WPS Office to do office work.</p>
+    <p xml:lang="zh-CN">使用 WPS Office进行办公。</p>
+  </description>
+  <url type="homepage">https://www.wps.cn/</url>
+  <releases>
+    <release version="1.0" date="2024-10-09"/>
+  </releases>
+</component>
