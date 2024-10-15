@@ -42,7 +42,23 @@ make generate_po
 
 构建二进制包时 `generate_mo` 目标将被执行。
 
-`.pot` 和 `.mo` 文件会被 `clean` 目标清除。
+`.mo` 文件会被 `clean` 目标清除。
+
+### Transifex 集成
+
+本仓库配置的 Transifex 过滤器策略会使 Transifex 查找所有的 `./i18n/*.pot` 文件，然后将文件名的扩展名去除，再在 `./i18n/` 目录下以此为名称的目录中更新其他语言对应的翻译文件。所以在建立新的占位应用时应注意保持目录与 `.pot` 文件名称一致。
+
+添加新的占位应用的示例：
+
+```
+i18n/
+|
++-- your-dummy-app/
+|   |
+|   +-- en_US.po
+|   +-- zh_CN.po
++-- your-dummy-app.pot
+```
 
 ## 帮助
 

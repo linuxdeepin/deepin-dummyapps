@@ -42,8 +42,23 @@ This target will generate `.pot` files in `./i18n` and update corresponding `.po
 
 `generate_mo` target will be run when the package is being built.
 
-`.pot` and `.mo` files will be removed by `clean` target.
+`.mo` files will be removed by `clean` target.
 
+### Transifex Integration
+
+The Transifex filter configured for this repository will make Transifex look for all `./i18n/*.pot` files, treat them as source translation files, strip the file names of their extensions, and generate translation files for other languages under directories with such names in `./i18n/`. Therefore when you write your Makefile, be sure to keep the names same.
+
+Example when adding a new app:
+
+```
+i18n/
+|
++-- your-dummy-app/
+|   |
+|   +-- en_US.po
+|   +-- zh_CN.po
++-- your-dummy-app.pot
+```
 
 ## Getting help
 
