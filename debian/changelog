@@ -1,3 +1,9 @@
+deepin-dummyapps (1.0.1) unstable; urgency=medium
+
+  * Initial tag release.
+
+ -- Wu Haotian <wuhaotian@uniontech.com>  Wed, 16 Oct 2024 11:02:25 +0800
+
 deepin-dummyapps (1.0.0) unstable; urgency=medium
 
   * First release.
