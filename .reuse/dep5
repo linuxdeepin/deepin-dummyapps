@@ -1,0 +1,33 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: deepin-dummyapps
+Source: https://github.com/linuxdeepin/deepin-dummyapps
+
+# Packaging manifests
+Files: debian/* *.install
+Copyright: None
+License: CC0-1.0
+
+# configuration files for CI scripts/tools
+Files: .github/* .tx/*
+Copyright: None
+License: CC0-1.0
+
+# Image assets
+Files: assets/*.svg
+Copyright: UnionTech Software Technology Co., Ltd.
+License: GPL-3.0-or-later
+
+# Documentation
+Files: README.md README.*.md
+Copyright: UnionTech Software Technology Co., Ltd.
+License: CC-BY-4.0
+
+# Desktop files and AppStream metainfo
+Files: misc/*.desktop misc/*.metainfo.xml
+Copyright: UnionTech Software Technology Co., Ltd.
+License: GPL-3.0-or-later
+
+# Translation files
+Files: i18n/*.pot i18n/**/*.po
+Copyright: UnionTech Software Technology Co., Ltd.
+License: GPL-3.0-or-later
