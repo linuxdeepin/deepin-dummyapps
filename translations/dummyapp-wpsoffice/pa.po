@@ -1,0 +1,27 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# A S Alam, 2024
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 17:38+0800\n"
+"PO-Revision-Date: 2024-10-16 03:08+0000\n"
+"Last-Translator: A S Alam, 2024\n"
+"Language-Team: Panjabi (Punjabi) (https://app.transifex.com/linuxdeepin/teams/3617/pa/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pa\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/dummyapp-wpsoffice.sh:10
+#, sh-format
+msgid "WPS is not installed yet, please install it in the app store."
+msgstr "WPS ਹਾਲੇ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ, ਐਪ ਸਟੋਰ ਵਿੱਚੋਂ ਇਸ ਨੂੰ ਇੰਸਟਾਲ ਕਰੋ।"
