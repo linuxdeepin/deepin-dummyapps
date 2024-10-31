@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Gary Wang <wzc782970009@gmail.com>, 2024
+# deepiner, 2024
 # 
 #, fuzzy
 msgid ""
@@ -13,15 +13,15 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-15 17:38+0800\n"
 "PO-Revision-Date: 2024-10-16 03:08+0000\n"
-"Last-Translator: Gary Wang <wzc782970009@gmail.com>, 2024\n"
-"Language-Team: Chinese (China) (https://app.transifex.com/linuxdeepin/teams/3617/zh_CN/)\n"
+"Last-Translator: deepiner, 2024\n"
+"Language-Team: Chinese (Hong Kong) (https://app.transifex.com/linuxdeepin/teams/3617/zh_HK/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
+"Language: zh_HK\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/dummyapp-wpsoffice.sh:10
 #, sh-format
 msgid "WPS is not installed yet, please install it in the app store."
-msgstr "WPS 尚未安装，请在应用商店安装后使用。"
+msgstr "WPS 尚未安裝，請在應用商店安裝後使用。"
