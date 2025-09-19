@@ -25,4 +25,4 @@ msgstr ""
 #, sh-format
 msgid "WPS is not installed yet, please install it in the app store."
 msgstr ""
-"WPS еще не установлен, пожалуйста, установите его из Магазина Приложений."
+"WPS еще не установлен, пожалуйста, установите его из магазина приложений."
