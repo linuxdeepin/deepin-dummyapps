@@ -1,3 +1,9 @@
+deepin-dummyapps (1.0.3) unstable; urgency=medium
+
+  * i18n: Updates for project Deepin Desktop Environment (#9)
+
+ -- Wang Zichong <wangzichong@deepin.org>  Fri, 10 Oct 2025 14:04:07 +0800
+
 deepin-dummyapps (1.0.2) unstable; urgency=medium
 
   * Added translations for WPS Office;
